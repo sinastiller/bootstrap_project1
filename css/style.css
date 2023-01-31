@@ -1,0 +1,44 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.alert-container{}
+
+.quotes-container{}
+
+.callout-container{
+    height: 100vh;
+
+    background: url("../images/background-image.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.features-container{}
+
+
+/*Jumbotron*/
+.jumbotron{
+    background-color: transparent;
+}
+.jumbotron-header{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #374e4b;
+}
+.jumbotron-small{
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
