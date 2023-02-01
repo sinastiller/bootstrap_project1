@@ -19,26 +19,76 @@ body{
     align-items: center;
     justify-content: center;
 
+    position: relative;
+
 }
 
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
 .features-container{}
 
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+}
+.block-divider--orange {
+    background-color: #b19d78;
+}
 
+.block-divider--short {
+    width: 35px;
+}
 /*Jumbotron*/
 .jumbotron{
     background-color: transparent;
 }
 .jumbotron-header{
-    color: white;
+    color: #d9d9d9;
     font-weight: bold;
     margin-bottom: 30px;
 }
 .jumbotron .lead {
     margin: 25px 0;
-    color: #374e4b;
+    color: #fbad76;
 }
 .jumbotron-small{
     font-size: 60%;
     font-style: italic;
     color: #d0d0d0;
+}
+
+/*buttons*/
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: rgb(98 85 61);
+    border-color: rgb(98 85 61);
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: rgb(44 40 28);
+    border-color: rgb(44 40 28);
+}
+.text-muted {
+    color: #d0e0ed!important;
+}
+
+.mark, mark {
+    padding: 0.2em;
+    background-color: #c9a891;
 }
